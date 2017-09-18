@@ -30,4 +30,5 @@ RUN chmod 0700 /home/vagrant/.ssh
 EXPOSE 22
 
 ADD bin/my_init /sbin/my_init
+RUN chmod 0750 /sbin/my_init
 CMD ["/sbin/my_init"]
