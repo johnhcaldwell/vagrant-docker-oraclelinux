@@ -1,0 +1,6 @@
+#!/bin/bash
+service rsyslog start
+service sshd start
+
+#run forever
+while true; do sleep 1000; done
