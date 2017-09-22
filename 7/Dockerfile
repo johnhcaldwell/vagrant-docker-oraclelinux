@@ -1,6 +1,6 @@
 # Oracle Linux 7 configured for Vagrant
 # http://github.com/johnhcaldwell/vagrant-docker-oraclelinux
-# docker pull johnhcaldwell/vagrant-oraclelinux:5
+# docker pull johnhcaldwell/vagrant-oraclelinux:7
 FROM oraclelinux:7
 MAINTAINER John Caldwell "john.caldwell@oracle.com"
 
